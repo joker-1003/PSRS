@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+.venv/
+venv/
+env/
+build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.claude/
+
+# Project artifacts (do not commit checkpoints, datasets, logs, or visualizations)
+weights/
+dataset/
+checkpoints/
+runs/
+runs_*/
+vis_output/
+evaluate_results/
+*.pth
+*.bin
+*.safetensors
+
+# Training / experiment metadata
+wandb/
+*.log
+events.out.tfevents.*
+
+# Compressed archives (likely datasets / weights)
+*.tar
+*.tar.gz
+*.zip
+
+# Misc
+.cache/

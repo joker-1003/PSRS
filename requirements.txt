@@ -1,0 +1,33 @@
+# Core dependencies for PSRS training and inference.
+# Tested with Python 3.10 on CUDA 12.x. See requirements-frozen.txt for an
+# exhaustive pinned list captured from a working environment.
+
+torch>=2.1.0
+torchvision
+transformers>=4.46.0
+peft>=0.13.0
+accelerate>=1.0.0
+huggingface-hub>=0.34.0,<1.0
+bitsandbytes
+einops
+
+# Vision / data
+opencv-python
+Pillow
+pycocotools
+numpy
+scipy
+scikit-image
+ftfy
+av
+decord
+
+# IO / logging
+tqdm
+tensorboard
+wandb            # optional, used only when --use_wandb is passed to train_ddp.py
+
+# Optional: flash-attention provides a large speedup but install requires
+# matching CUDA / torch versions. Install via the prebuilt wheel that matches
+# your environment, e.g.:
+#   pip install flash-attn==2.7.4.post1 --no-build-isolation
