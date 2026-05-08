@@ -23,7 +23,6 @@ Together with the proposed **MechSeg-Bench**, PSRS establishes a new state-of-th
 - [Inference](#inference)
 - [Repository Structure](#repository-structure)
 - [Acknowledgements](#acknowledgements)
-- [Citation](#citation)
 - [License](#license)
 
 ---
@@ -376,24 +375,6 @@ PSRS builds on the shoulders of several open-source efforts:
 - **[Seg-Zero](https://github.com/dvlab-research/Seg-Zero)** and **[READ](https://github.com/whatakitakai/READ)** — strong recent baselines we compare against.
 
 We thank the authors of all of the above.
-
----
-
-## Citation
-
-If you use PSRS in your research, please cite:
-
-```bibtex
-@inproceedings{psrs2026,
-  title     = {PSRS: Reasoning-induced Segmentation via Progressive Signal Strengthening},
-  author    = {Anonymous},
-  booktitle = {Proceedings of the International Conference on Machine Learning (ICML)},
-  year      = {2026},
-  note      = {Under review}
-}
-```
-
-(Citation will be updated once the paper is published.)
 
 ---
 
